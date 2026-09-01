@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FreQMask</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <canvas id="backgroundSpectrum" class="background-spectrum" aria-hidden="true"></canvas>
+    <main class="app-shell">
+      <section class="mixer">
+        <div class="topbar">
+          <div>
+            <p class="eyebrow">Noise mixer</p>
+            <h1>FreQMask</h1>
+            <p class="tagline">Camadas de ruido para mascarar musicas, vozes e frequencias externas.</p>
+          </div>
+          <button id="powerButton" class="power-button" type="button" aria-pressed="false">
+            <span class="power-dot" aria-hidden="true"></span>
+            Iniciar
+          </button>
+        </div>
+
+        <div class="visualizer-wrap" aria-label="Visualizador de frequencias">
+          <canvas id="visualizer" width="1280" height="360"></canvas>
+        </div>
+
+        <div class="control-grid">
+          <label class="timer-control" for="timerSelect">
+            Timer
+            <select id="timerSelect">
+              <option value="0">Sem timer</option>
+              <option value="15">15 minutos</option>
+              <option value="30">30 minutos</option>
+              <option value="60">60 minutos</option>
+              <option value="120">120 minutos</option>
+            </select>
+          </label>
+
+          <p id="timerStatus" class="timer-status">Timer desligado</p>
+          <button id="resetButton" class="reset-button" type="button">Zerar sons</button>
+          <label class="mp3-control" for="mp3Input">
+            Adicionar MP3
+            <input id="mp3Input" type="file" accept="audio/mpeg,audio/mp3">
+          </label>
+        </div>
+
+        <div class="master-row">
+          <label for="masterVolume">Volume geral</label>
+          <input id="masterVolume" type="range" min="0" max="100" value="65">
+          <output id="masterValue" for="masterVolume">65%</output>
+        </div>
+
+        <div class="presets" aria-label="Presets de sons">
+          <button type="button" data-preset="music">Bloquear musica</button>
+          <button type="button" data-preset="voices">Bloquear vozes</button>
+          <button type="button" data-preset="bass">Graves fortes</button>
+          <button type="button" data-preset="sleep">Dormir</button>
+          <button type="button" data-preset="focus">Foco</button>
+          <button type="button" data-preset="light">Som leve</button>
+        </div>
+
+        <div class="channels" id="channels"></div>
+      </section>
+    </main>
+
+    <footer class="credits">FreQMask
+      <span>FreQMask v1.0</span>
+      <a href="https://github.com/BrunoVsCore" target="_blank" rel="noreferrer">BrunoVsCore</a>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
