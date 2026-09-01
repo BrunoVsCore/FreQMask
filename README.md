@@ -3,7 +3,7 @@
 O **FreQMask** é um software que permite reproduzir e **misturar vários sons simultaneamente**, oferecendo controle individual de volume e outras configurações de áudio.
 O objetivo é permitir que o usuário crie seu próprio ambiente sonoro, podendo utilizar ruídos, sons ambientes, músicas e arquivos personalizados.
 ## Demo / Preview
-  <img src="img.gif" width="800" style="border-radius:15px; border:2px solid #30363d;" />
+  <img src="demo.gif" width="800" style="border-radius:15px; border:2px solid #30363d;" />
 
 ## 🔊 Recursos
 
