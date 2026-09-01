@@ -1,33 +1,30 @@
-FreQMask
-🎧 FreQMask
-Sistema de mascaramento e mixagem sonora
-O FreQMask é um software desenvolvido para criar ambientes sonoros personalizados através da reprodução e combinação de diferentes sons em tempo real.  A proposta do FreQMask é oferecer uma maneira simples de criar diferentes perfis de áudio para situações como foco, sono, relaxamento e mascaramento de sons externos, especialmente quando utilizado com fones de ouvido com cancelamento ativo de ruído (ANC).
+# 🎧 FreQMask
 
-🔊 Recursos
-🎚️ Mixer para combinar vários sons simultaneamente
-⚪ Ruído Branco
-🌸 Ruído Rosa
-🟤 Ruído Marrom
-🔵 Ruído Azul
-⚫ Ruído Preto
-🌧️ Diversos sons ambientes
-🎵 Adição de músicas e sons personalizados
-⏱️ Temporizador
-🔁 Reprodução em loop
-🎛️ Controle de frequências
-🎧 Utilização com fones com ANC
-🎯 Modos prontos
-O FreQMask possui configurações pré-definidas para diferentes situações:
+O **FreQMask** é um software que permite reproduzir e **misturar vários sons simultaneamente**, oferecendo controle individual de volume e outras configurações de áudio.
+O objetivo é permitir que o usuário crie seu próprio ambiente sonoro, podendo utilizar ruídos, sons ambientes, músicas e arquivos personalizados.
 
-🎵 Bloquear Música — perfil voltado para mascarar músicas e sons musicais externos.
-🗣️ Bloquear Vozes — configuração direcionada às frequências características da fala.
-🔊 Graves Fortes — maior ênfase nas frequências graves.
-😴 Dormir — perfil suave para reprodução prolongada.
-🎯 Foco — ambiente sonoro pensado para ajudar na concentração.
-🌿 Som Leve — combinação mais suave e discreta para o uso cotidiano. Além dos modos prontos, o usuário pode ajustar os controles manualmente e criar sua própria configuração.
-🛠️ Tecnologias
-Java Script
-CSS
-HTML
-⚠️ Aviso
-O FreQMask é uma ferramenta de mascaramento sonoro. Ele não elimina fisicamente sons externos e não substitui isolamento acústico, cancelamento ativo de ruído ou proteção auditiva. Evite utilizar volumes elevados por períodos prolongados.
+## 🔊 Recursos
+
+* 🎚️ Mixer com controle individual de volume
+* ⚪ Ruído Branco
+* 🌸 Ruído Rosa
+* 🟤 Ruído Marrom
+* 🔵 Ruído Azul
+* ⚫ Ruído Preto
+* 🌧️ Diversos sons ambientes
+* 🎵 Adição de sons próprios
+* ⏱️ Temporizador
+* 🔁 Reprodução em loop
+* 🎛️ Controle de frequências
+* 🎧 Suporte a fones com ANC
+
+## 🛠️ Tecnologias
+• Java Script
+• CSS
+• HTML
+
+## 🚧 Status
+**Versão:** `v1.0.0`
+
+## ⚠️ Aviso
+O FreQMask é uma ferramenta de **mascaramento sonoro** e não substitui isolamento acústico, ANC ou proteção auditiva. Evite volumes elevados por períodos prolongados.
